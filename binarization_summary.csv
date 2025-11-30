@@ -1,0 +1,23 @@
+binary_variable_name,ones,zeros,total,share_of_ones,note
+Recurrent_Trader,128,157,285,0.44912280701754387,"codes {4,5}=1, {1,2,3}=0"
+Day_Trader,170,115,285,0.5964912280701754,Copied from Day_Trade
+Lottery_Stock_Trader,177,108,285,0.6210526315789474,Copied from Lottery_Stocks
+Smoker,40,245,285,0.14035087719298245,Copied from Smoke
+Alcohol_User,120,165,285,0.42105263157894735,Copied from Drink_Alcohol
+Male_Investor,168,117,285,0.5894736842105263,Copied from Male_Dummy
+Single_Investor,176,109,285,0.6175438596491228,Copied from Single_Dummy
+Needs_Returns_For_Expenses,142,143,285,0.4982456140350877,Copied from Return_needed_for_exp
+Derivative_User,150,135,285,0.5263157894736842,Copied from Derivative_Warrant
+Margin_User,23,262,285,0.08070175438596491,Copied from Margin_Account
+High_Education,159,126,285,0.5578947368421052,Copied from Master_Dummy
+Underdiversified_Portfolio,191,68,259,0.7374517374517374,<8 holdings → 1
+Young_Investor,183,102,285,0.6421052631578947,<=35 → 1
+Low_Income,80,205,285,0.2807017543859649,<=30k THB → 1
+Overconfident_SelfView,47,238,285,0.1649122807017544,<=30% think better -> 1
+Low_Experience,49,236,285,0.17192982456140352,"codes {1,2}=1, {3,4}=0"
+Highly_Overconfident_Interval,85,200,285,0.2982456140350877,>= P75 (150.00)
+Has_Gambling_Habit,34,251,285,0.11929824561403508,mean >=2.0 (1-5 scale)
+High_Stress,44,241,285,0.1543859649122807,values 5-7 -> 1
+High_Risk_Tolerance,76,209,285,0.26666666666666666,>=7 (scale 1-10)
+Trading_Addiction_SelfReport,168,117,285,0.5894736842105263,Addiction_Score >=1 -> 1
+Low_Financial_Literacy,88,197,285,0.3087719298245614,<=6 correct -> 1

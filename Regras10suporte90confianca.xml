@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules_base>
+  <specs>
+    <context_name>StockAddiction</context_name>
+    <minimal_support>0.1</minimal_support>
+    <minimal_confidence>0.9</minimal_confidence>
+  </specs>
+  <rules>
+    <rules_number>131</rules_number>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Recurrent_Trader}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.23</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Recurrent_Trader, Single_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.2</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Male_Investor, Recurrent_Trader}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.19</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Male_Investor, Recurrent_Trader}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.19</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Recurrent_Trader, Single_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.17</support>
+      <confidence>0.94</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Recurrent_Trader, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.17</support>
+      <confidence>0.94</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Day_Trader, Derivative_User}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.16</support>
+      <confidence>0.95</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Needs_Returns_For_Expenses, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.16</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Recurrent_Trader, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.16</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Male_Investor, Recurrent_Trader}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.16</support>
+      <confidence>0.95</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Recurrent_Trader, Single_Investor, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.15</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Needs_Returns_For_Expenses, Recurrent_Trader}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.15</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Recurrent_Trader, Single_Investor, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.15</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Needs_Returns_For_Expenses, Recurrent_Trader}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.15</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Recurrent_Trader, Single_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.15</support>
+      <confidence>0.95</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Recurrent_Trader, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.15</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Low_Income, Underdiversified_Portfolio}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.14</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Low_Income, Single_Investor}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.14</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Day_Trader, Male_Investor}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.14</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Low_Income, Single_Investor, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.14</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Day_Trader, Recurrent_Trader}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.14</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Recurrent_Trader, Single_Investor, Underdiversified_Portfolio}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.14</support>
+      <confidence>0.95</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Low_Income, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.14</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Recurrent_Trader, Underdiversified_Portfolio, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.14</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Needs_Returns_For_Expenses, Recurrent_Trader}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.14</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Derivative_User, Needs_Returns_For_Expenses, Recurrent_Trader}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.14</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Derivative_User, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.13</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Low_Income, Recurrent_Trader}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.13</support>
+      <confidence>0.92</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Recurrent_Trader, Single_Investor, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.13</support>
+      <confidence>0.97</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Recurrent_Trader, Single_Investor, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.13</support>
+      <confidence>0.92</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Derivative_User, Needs_Returns_For_Expenses, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.13</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Recurrent_Trader, Underdiversified_Portfolio}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.13</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Male_Investor, Recurrent_Trader, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.13</support>
+      <confidence>0.92</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Recurrent_Trader, Trading_Addiction_SelfReport, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.13</support>
+      <confidence>0.95</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Low_Income, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.12</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Needs_Returns_For_Expenses, Trading_Addiction_SelfReport, Young_Investor}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.12</support>
+      <confidence>0.94</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Day_Trader, Needs_Returns_For_Expenses}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.12</support>
+      <confidence>0.92</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Needs_Returns_For_Expenses, Single_Investor, Underdiversified_Portfolio}</premise>
+      <consequence>{Trading_Addiction_SelfReport}</consequence>
+      <support>0.12</support>
+      <confidence>0.92</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Recurrent_Trader, Single_Investor, Underdiversified_Portfolio}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.12</support>
+      <confidence>0.92</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Needs_Returns_For_Expenses, Single_Investor, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.12</support>
+      <confidence>0.94</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Male_Investor, Recurrent_Trader, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.12</support>
+      <confidence>0.97</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Derivative_User, Needs_Returns_For_Expenses, Young_Investor}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.12</support>
+      <confidence>0.92</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Male_Investor, Recurrent_Trader, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.12</support>
+      <confidence>0.92</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Needs_Returns_For_Expenses, Single_Investor, Underdiversified_Portfolio}</premise>
+      <consequence>{Trading_Addiction_SelfReport}</consequence>
+      <support>0.12</support>
+      <confidence>0.94</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Recurrent_Trader, Underdiversified_Portfolio, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.12</support>
+      <confidence>0.94</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Male_Investor, Recurrent_Trader, Single_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.12</support>
+      <confidence>0.97</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Recurrent_Trader, Single_Investor, Underdiversified_Portfolio, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.12</support>
+      <confidence>0.97</confidence>
+    </rule>
+    <rule>
+      <premise>{Low_Income, Recurrent_Trader, Young_Investor}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Male_Investor, Recurrent_Trader, Underdiversified_Portfolio}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.94</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Male_Investor, Recurrent_Trader, Single_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.97</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Lottery_Stock_Trader, Trading_Addiction_SelfReport, Young_Investor}</premise>
+      <consequence>{Single_Investor}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Recurrent_Trader, Single_Investor, Trading_Addiction_SelfReport, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Recurrent_Trader, Single_Investor, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.94</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Low_Income, Underdiversified_Portfolio}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{High_Risk_Tolerance, Recurrent_Trader, Single_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Low_Income, Needs_Returns_For_Expenses, Young_Investor}</premise>
+      <consequence>{Trading_Addiction_SelfReport}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Low_Income, Single_Investor, Underdiversified_Portfolio}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Needs_Returns_For_Expenses, Underdiversified_Portfolio}</premise>
+      <consequence>{Trading_Addiction_SelfReport}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Lottery_Stock_Trader, Low_Income, Underdiversified_Portfolio}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Low_Income, Single_Investor, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Derivative_User, Lottery_Stock_Trader, Recurrent_Trader}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.94</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Day_Trader, Derivative_User, Recurrent_Trader}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.94</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Lottery_Stock_Trader, Low_Income, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Lottery_Stock_Trader, Needs_Returns_For_Expenses, Single_Investor, Young_Investor}</premise>
+      <consequence>{Trading_Addiction_SelfReport}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Recurrent_Trader, Single_Investor, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.97</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Recurrent_Trader, Trading_Addiction_SelfReport, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.94</confidence>
+    </rule>
+    <rule>
+      <premise>{Low_Income, Recurrent_Trader, Single_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Low_Income, Recurrent_Trader, Single_Investor}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Low_Income, Recurrent_Trader, Single_Investor}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{High_Risk_Tolerance, Recurrent_Trader, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Low_Income, Single_Investor, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Derivative_User, Single_Investor, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Day_Trader, Derivative_User, Male_Investor}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.96</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Male_Investor, Needs_Returns_For_Expenses}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Lottery_Stock_Trader, Male_Investor, Recurrent_Trader}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.94</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Day_Trader, Male_Investor, Recurrent_Trader}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.94</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Day_Trader, Derivative_User, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.96</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Derivative_User, Needs_Returns_For_Expenses, Trading_Addiction_SelfReport, Young_Investor}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.11</support>
+      <confidence>0.94</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Male_Investor, Needs_Returns_For_Expenses, Recurrent_Trader}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>1.0</confidence>
+    </rule>
+    <rule>
+      <premise>{Low_Income, Needs_Returns_For_Expenses, Recurrent_Trader}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Needs_Returns_For_Expenses, Recurrent_Trader, Underdiversified_Portfolio}</premise>
+      <consequence>{Trading_Addiction_SelfReport}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Needs_Returns_For_Expenses, Recurrent_Trader, Underdiversified_Portfolio}</premise>
+      <consequence>{Trading_Addiction_SelfReport}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, High_Risk_Tolerance, Lottery_Stock_Trader, Recurrent_Trader}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Needs_Returns_For_Expenses, Recurrent_Trader, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Needs_Returns_For_Expenses, Recurrent_Trader, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Needs_Returns_For_Expenses, Single_Investor, Underdiversified_Portfolio, Young_Investor}</premise>
+      <consequence>{Trading_Addiction_SelfReport}</consequence>
+      <support>0.1</support>
+      <confidence>0.91</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Recurrent_Trader, Single_Investor, Trading_Addiction_SelfReport, Underdiversified_Portfolio}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Recurrent_Trader, Single_Investor, Underdiversified_Portfolio}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Derivative_User, Needs_Returns_For_Expenses, Single_Investor, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Low_Income, Needs_Returns_For_Expenses, Underdiversified_Portfolio}</premise>
+      <consequence>{Trading_Addiction_SelfReport}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Low_Income, Male_Investor, Recurrent_Trader}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Derivative_User, Needs_Returns_For_Expenses}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Low_Income, Needs_Returns_For_Expenses}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Low_Income, Recurrent_Trader, Single_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Day_Trader, Derivative_User, Single_Investor}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Low_Income, Recurrent_Trader, Single_Investor}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Alcohol_User, Day_Trader, Trading_Addiction_SelfReport, Young_Investor}</premise>
+      <consequence>{Single_Investor}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Low_Income, Recurrent_Trader, Young_Investor}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Low_Income, Recurrent_Trader}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Derivative_User, Low_Income, Recurrent_Trader}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Needs_Returns_For_Expenses, Single_Investor, Underdiversified_Portfolio, Young_Investor}</premise>
+      <consequence>{Trading_Addiction_SelfReport}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Recurrent_Trader, Single_Investor, Underdiversified_Portfolio, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.96</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Lottery_Stock_Trader, Needs_Returns_For_Expenses, Single_Investor, Underdiversified_Portfolio}</premise>
+      <consequence>{Trading_Addiction_SelfReport}</consequence>
+      <support>0.1</support>
+      <confidence>0.96</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Recurrent_Trader, Underdiversified_Portfolio, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Recurrent_Trader, Trading_Addiction_SelfReport, Underdiversified_Portfolio}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Needs_Returns_For_Expenses, Single_Investor, Young_Investor}</premise>
+      <consequence>{Trading_Addiction_SelfReport}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Recurrent_Trader, Single_Investor, Trading_Addiction_SelfReport, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.96</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Needs_Returns_For_Expenses, Single_Investor, Trading_Addiction_SelfReport, Young_Investor}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.96</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Male_Investor, Recurrent_Trader, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.96</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Male_Investor, Recurrent_Trader, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.96</confidence>
+    </rule>
+    <rule>
+      <premise>{Low_Income, Recurrent_Trader, Underdiversified_Portfolio}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Low_Income, Male_Investor}</premise>
+      <consequence>{Recurrent_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Low_Income, Male_Investor}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Needs_Returns_For_Expenses, Recurrent_Trader, Underdiversified_Portfolio, Young_Investor}</premise>
+      <consequence>{Trading_Addiction_SelfReport}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Low_Income, Underdiversified_Portfolio}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Derivative_User, Needs_Returns_For_Expenses, Underdiversified_Portfolio}</premise>
+      <consequence>{Trading_Addiction_SelfReport}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Low_Income, Recurrent_Trader, Single_Investor, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Low_Income, Recurrent_Trader, Single_Investor, Young_Investor}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Low_Income, Recurrent_Trader, Single_Investor}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Low_Income, Recurrent_Trader, Single_Investor}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, High_Risk_Tolerance, Trading_Addiction_SelfReport, Young_Investor}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Low_Income, Recurrent_Trader, Young_Investor}</premise>
+      <consequence>{Single_Investor}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Derivative_User, Lottery_Stock_Trader, Low_Income, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Derivative_User, Low_Income, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Young_Investor}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Recurrent_Trader, Trading_Addiction_SelfReport, Underdiversified_Portfolio, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Male_Investor, Recurrent_Trader, Single_Investor, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.96</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Male_Investor, Recurrent_Trader, Single_Investor, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.96</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Needs_Returns_For_Expenses, Recurrent_Trader, Single_Investor, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Day_Trader, Needs_Returns_For_Expenses, Recurrent_Trader, Single_Investor, Trading_Addiction_SelfReport}</premise>
+      <consequence>{Lottery_Stock_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Male_Investor, Recurrent_Trader, Trading_Addiction_SelfReport, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.93</confidence>
+    </rule>
+    <rule>
+      <premise>{Lottery_Stock_Trader, Needs_Returns_For_Expenses, Recurrent_Trader, Trading_Addiction_SelfReport, Young_Investor}</premise>
+      <consequence>{Day_Trader}</consequence>
+      <support>0.1</support>
+      <confidence>0.9</confidence>
+    </rule>
+  </rules>
+</rules_base>
